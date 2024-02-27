@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Hotel Sort</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="logo nav__logo">
+          <div>HS</div>
+          <span>HOTEL<br />SORT</span>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#room">Habitaciones</a></li>
+        <li><a href="#feature">Servicios</a></li>
+        <li><a href="#menu">Restaurante</a></li>
+        <li><a href="#news">Destacados</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header" id="home">
+    <div class="section__container header__container">
+      <p class="section__subheader">Hotel Sort</p>
+      <h1>Tu Escape Perfecto,<br />Cada Vez</h1>
+      <button class="btn">Conocenos</button>
+    </div>
+  </header>
+
+  <section class="booking">
+    <div class="section__container booking__container">
+      <form action="/">
+        <div class="input__group">
+          <label for="arrival">Entrada</label>
+          <input type="text" placeholder="Fecha de Llegada" />
+        </div>
+        <div class="input__group">
+          <label for="departure">Salida</label>
+          <input type="text" placeholder="Fecha de Salida" />
+        </div>
+        <div class="input__group">
+          <label for="guests">Huéspedes</label>
+          <input type="text" placeholder="Número de Huéspedes" />
+        </div>
+        <button class="btn">Disponibilidad</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__container about__container">
+      <div class="about__grid">
+        <div class="about__image">
+          <img src="assets/about-1.jpg" alt="about" />
+        </div>
+        <div class="about__card">
+          <span><i class="ri-user-line"></i></span>
+          <h4>Nuestro Equipo</h4>
+          <p>
+            Especializados en brindar una excelencia en hospitalidad y garantizar una estadía perfecta.
+          </p>
+        </div>
+        <div class="about__image">
+          <img src="assets/about-2.jpg" alt="about" />
+        </div>
+        <div class="about__card">
+          <span><i class="ri-calendar-check-line"></i></span>
+          <h4>Suites</h4>
+          <p>Disfruta de una experiencia inigualable en nuestras habitaciones exclusivas.</p>
+        </div>
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">Sobre Nosotros</p>
+        <h2 class="section__header">Descubre Nuestro Hotel</h2>
+        <p class="section__description">
+          Experimenta la esencia de Puerto Iguazú en nuestro hotel, donde la tranquilidad se mezcla con la maravilla de
+          las Cataratas. Disfruta de una estancia cómoda y auténtica mientras exploras este destino único en el mundo.
+        </p>
+        <button class="btn">Conocé Más</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="room__container" id="room">
+    <p class="section__subheader">HABITACIONES</p>
+    <h2 class="section__header">Lo mejor para tu Descanso</h2>
+    <div class="room__grid">
+      <div class="room__card">
+        <img src="assets/room-1.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Suites de Lujo</h4>
+            <p>Cada suite ofrece un ambiente espacioso con detalles elegantes y comodidades de primera calidad, además
+              de áreas separadas para dormir y descansar, así como zonas de estar bien equipadas. </p>
+          </div>
+        </div>
+      </div>
+      <div class="room__card">
+        <img src="assets/room-2.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Habitaciones Dobles</h4>
+            <p> Cuenta con dos camas dobles, ideales para familias que deseen compartir el
+              espacio. Además, la habitación está equipada con un baño privado completo, con ducha o bañera para
+              garantizar una experiencia relajante.</p>
+          </div>
+        </div>
+      </div>
+      <div class="room__card">
+        <img src="assets/room-3.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Habitaciones Simples</h4>
+            <p>
+              Con una decoración moderna y sencilla, la habitación cuenta con una cómoda cama doble, ideal para
+              descansar después de una jornada emocionante. Además de un baño privado, equipado con ducha.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div class="section__container intro__container">
+      <div class="intro__cotent">
+        <p class="section__subheader">VIVI LA EXPERIENCIA</p>
+        <h2 class="section__header">Conocé nuestras habitaciones</h2>
+        <p class="section__description">
+          Disfruta de una variedad de comodidades, impresionantes vistas panorámicas de Puerto Iguazú
+          y un servicio excepcional que hará que te sientas como en casa desde el momento
+          en que llegues.
+          Explora más detalles sobre cada tipo de habitación y reserva tu
+          estancia en nuestro hotel hoy mismo. ¡Esperamos darte la bienvenida pronto!
+        </p>
+      </div>
+      <div class="intro__video">
+        <video src="assets/luxury.mp4" autoplay muted loop></video>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container feature__container" id="feature">
+    <p class="section__subheader">SERVICIOS</p>
+    <h2 class="section__header">Descubre Servicios Exclusivos</h2>
+    <div class="feature__grid">
+      <div class="feature__card">
+        <span><i class="ri-haze-line"></i></span>
+        <h4>Piscina al aire libre</h4>
+        <p>
+          Rodeada de exuberante vegetación y cómodas tumbonas, es el lugar perfecto para relajarse.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-wifi-line"></i></span>
+        <h4>WiFi</h4>
+        <p>
+          Ofrecemos acceso WiFi gratuito en todas las áreas del hotel. Con una conexión rápida y confiable.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-restaurant-line"></i></span>
+        <h4>Restaurante</h4>
+        <p>
+          Con un menú cuidadosamente elaborado que incluye opciones para todos los gustos y preferencias dietéticas.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-24-hours-line"></i></span>
+        <h4>Recepción 24 horas</h4>
+        <p>
+          Disponible las 24 horas, los 7 días de la semana, para atender todas las necesidades y consultas en cualquier
+          momento.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-bus-line"></i></span>
+        <h4>Traslado aeropuerto</h4>
+        <p>
+          Ofrecemos un servicio de traslado desde y hacia el aeropuerto para la comodidad de nuestros huéspedes.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-map-pin-line"></i></span>
+        <h4>Excelente ubicación</h4>
+        <p>
+          Con acceso conveniente a las principales atracciones de la ciudad y a lugares de interés turístico.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="section__container menu__container">
+      <div class="menu__header">
+        <div>
+          <p class="section__subheader">RESTAURANTE</p>
+          <h2 class="section__header">Nuestro Menú</h2>
+        </div>
+      </div>
+      <ul class="menu__items">
+        <li>
+          <img src="assets/menu-1.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Café con Medialunas</h4>
+            <p>
+              Una opción clásica donde puedes elegir entre café con leche, espresso e incluso un cortado, acompañado de
+              medialunas o pasta flora.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-2.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Jugo Natural y Frutas</h4>
+            <p>
+              Con variedades de jugos naturales, como naranja, manzana o tropical, acompañados de una
+              selección fresca de frutas de temporada.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-3.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Pollo con Vegetales</h4>
+            <p>
+              Una opción saludable donde podes disfrutar de una suprema de pollo acompañada de una
+              variedad de vegetales salteados.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-4.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Pasta y Ternera</h4>
+            <p>
+              Ofrecemos opciones de pastas, tales como tallarines, sorrentinos o ravioles, acompañadas con diferentes
+              tipos de carnes.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-5.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Picadas</h4>
+            <p>
+              Nuestras picadas incluyen una selección de embutidos, quesos regionales y
+              acompañamientos tradicionales.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-6.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Delicias Dulces</h4>
+            <p>
+              Ofrecemos una selección de postres desde flan, tortas y pasta flora, hasta cheesecakes de diversos
+              sabores.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="menu__images">
+        <img src="assets/menu-7.jpg" alt="menu" />
+        <img src="assets/menu-8.jpg" alt="menu" />
+        <img src="assets/menu-9.jpg" alt="menu" />
+      </div>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section__container news__container" id="news">
+    <div class="news__header">
+      <div>
+        <p class="section__subheader">Destacados</p>
+        <h2 class="section__header">Reseña de Nuestros Huéspedes</h2>
+      </div>
+      <div class="section__nav">
+        <span><i class="ri-arrow-left-line"></i></span>
+        <span><i class="ri-arrow-right-line"></i></span>
+      </div>
+    </div>
+    <div class="news__grid">
+      <div class="news__card">
+        <img src="assets/news-1.jpg" alt="news" />
+        <div class="news__card__title">
+          <p>Enero 2023</p>
+          <p>Lucia Ferro</p>
+        </div>
+        <h4>La piscina, ¡lo mejor del hotel sin duda alguna!</h4>
+        <p>
+          Desde la comodidad de mi habitación hasta los momentos tranquilos junto a la piscina, cada aspecto de mi
+          estancia fue perfectamente agradable. El ambiente tranquilo y sereno me permitió desconectar del estrés diario
+          y simplemente relajarme. Una experiencia encantadora que espero repetir pronto.
+
+        </p>
+      </div>
+      <div class="news__card">
+        <img src="assets/news-2.jpg" alt="news" />
+        <div class="news__card__title">
+          <p>Febrero 2023</p>
+          <p>Nancy Paredes</p>
+        </div>
+        <h4>Comodidad y serenidad, para sentirse como en casa</h4>
+        <p>
+          La cama era cómoda, el ambiente tranquilo y la limpieza impecable. La habitación ofrecía todo lo que
+          necesitaba para descansar y relajarme. Sin duda, una experiencia que volvería a repetir.
+        </p>
+      </div>
+      <div class="news__card">
+        <img src="assets/news-3.jpg" alt="news" />
+        <div class="news__card__title">
+          <p>Diciembre 2023</p>
+          <p>Agustín Peralta</p>
+        </div>
+        <h4>Cada plato es una experiencia gastronómica inolvidable</h4>
+        <p>
+          La experiencia culinaria en el hotel fue excepcional. El menú ofrecía una variedad deliciosa de platos para
+          todos los gustos. Desde opciones saludables hasta postres deliciosos.
+          Sin duda, una delicia para los sentidos que complementó perfectamente mi estancia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="logo footer__logo">
+          <div>HS</div>
+          <span>HOTEL<br />SORT</span>
+        </div>
+        <p class="section__description">
+          El hotel se encuentra ubicado en la región de Iguazú, Misiones, cercano a las
+          Cataratas del Iguazú y otros puntos de interés turístico. Cuenta con una variedad de instalaciones, que
+          incluyen habitaciones cómodas y bien equipadas, piscinas, áreas de descanso al aire libre, restaurante y otros servicios.
+        </p>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Servicios Adicionales</h4>
+        <div class="footer__links">
+          <li><a href="#">Cancelación sin costo adicional</a></li>
+          <li><a href="#">Servicio de limpieza</a></li>
+          <li><a href="#">Información turística</a></li>
+          <li><a href="#">Aparcamiento privado gratuito</a></li>
+          <li><a href="#">Excursiones a las Cataratas</a></li>
+          <li><a href="#">Habitaciones sin humo</a></li>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <div class="footer__links">
+          <li>
+            <span><i class="ri-phone-fill"></i></span>
+            <div>
+              <h5>Teléfono</h5>
+              <p>+54 3757 42-2756</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-record-mail-line"></i></span>
+            <div>
+              <h5>Email</h5>
+              <p>info@hotelsortiguazu.com</p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <div>
+              <h5>Ubicación</h5>
+              <p>RN12 km. 6, 3400 Puerto Iguazú </p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2023 Hotel Sort. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
